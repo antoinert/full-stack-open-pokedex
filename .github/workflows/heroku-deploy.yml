@@ -20,5 +20,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.2.6
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "pokedex-anton"
+          heroku_app_name: "pokedex-anton-cli"
           heroku_email: "anton.rautio@gmail.com"
